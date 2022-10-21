@@ -1,6 +1,6 @@
 # Huddle Landing Page 
 
-Solução da Landing Page baseada no projeto do Frontend Mentor. No desenvolvimento deste projeto foi possível colocar em prática conceitos mais avançados de HTML e CSS.   
+Solução da Landing Page responsiva baseada no projeto do Frontend Mentor. No desenvolvimento deste projeto foi possível colocar em prática conceitos mais avançados de HTML e CSS.   
 
 
 [<img src="src/images/huddle-landing-page.gif" alt="gif do projeto">]
@@ -16,4 +16,4 @@ Solução da Landing Page baseada no projeto do Frontend Mentor. No desenvolvime
 
 ### O que aprendi
 
-Importante para meu entendimento na utilização das propriedades display: flex junto com display: grid para a criação desta landing page responsiva.
+Importante para meu entendimento na utilização das propriedades display: flex junto com display: grid, foi possível na prática ver a facilidade com que posso organizar de uma maneira muito melhor todos os elementos na tela. 
