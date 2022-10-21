@@ -1,6 +1,6 @@
 # Huddle Landing Page 
 
-Solução da Landing Page responsiva baseada no projeto do Frontend Mentor. No desenvolvimento deste projeto foi possível colocar em prática conceitos mais avançados de HTML e CSS.   
+Solução do desafio proposto no curso DevQuest. Uma Landing Page responsiva baseada no projeto do Frontend Mentor. No desenvolvimento deste projeto foi colocado em prática conceitos mais avançados de HTML e CSS.   
 
 
 [<img src="src/images/huddle-landing-page.gif" alt="gif do projeto">]
