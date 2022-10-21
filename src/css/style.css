@@ -1,0 +1,66 @@
+body{
+    background: url(../images/bg-desktop.svg) center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    color: #FFFF;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+}
+
+.logo img{
+    margin: 35px 0 45px 35px;
+    width: 13rem;
+}
+
+.principal{
+    display: flex;
+    margin: 35px;
+}
+
+.descricao{
+   margin: 55px;
+}
+
+.descricao h1{
+    font-weight: 600;
+}
+
+.descricao p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 33px 0 40px;
+}
+
+.descricao .btn-register{
+    color: hsl(257, 40%, 49%);
+    background-color: #FFFF;
+    padding: 10px 54px;
+    border-radius: 50px;
+    transition: 0.4s ease-in-out;
+}
+
+.descricao .btn-register:hover{
+    color: #FFFF;
+    background-color:hsl(300, 69%, 71%);
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 80px 40px;
+}
+
+.social a{
+    color: #FFFF;
+    font-size: 1.3rem;
+}
+.social a ion-icon{
+    padding: 5px;
+    margin: 7px;
+    transition: 0.4s ease-in-out;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
+.social a:hover{
+    color: hsl(300, 69%, 71%);
+}

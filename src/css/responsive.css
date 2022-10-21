@@ -1,0 +1,51 @@
+@media(max-width: 375px){
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "logo"
+                             "principal"
+                             "social";
+    }
+
+    .logo{
+        grid-area: logo;
+    }
+
+    .logo img{
+        width: 35%;
+    }
+
+    .principal{
+        grid-area: principal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 30px;
+    }
+
+    .principal img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .principal .descricao{
+        margin: 55px 0;
+        text-align: center;
+    }
+
+    .principal .descricao h1{
+        font-size: 20px;
+    }
+
+    .descricao .btn-register{
+        padding: 7px 60px;
+    } 
+
+    .social{
+        grid-area: social;
+        justify-content: center;
+        margin: 30px 0 20px;
+    }
+}
