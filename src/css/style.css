@@ -1,5 +1,8 @@
 body{
-    background: url(../images/bg-desktop.svg) center no-repeat;
+    background: url(../images/bg-desktop.svg) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     background-color: hsl(257, 40%, 49%);
     color: #FFFF;
     font-family: 'Poppins', sans-serif; 
@@ -14,10 +17,13 @@ body{
 .principal{
     display: flex;
     margin: 35px;
+    justify-content: center;
+    align-items: center;
 }
 
 .descricao{
    margin: 55px;
+   width: 466px;
 }
 
 .descricao h1{
@@ -36,6 +42,7 @@ body{
     padding: 10px 54px;
     border-radius: 50px;
     transition: 0.4s ease-in-out;
+    box-shadow: 2px 2px 5px #000;
 }
 
 .descricao .btn-register:hover{
@@ -52,15 +59,18 @@ body{
 .social a{
     color: #FFFF;
     font-size: 1.3rem;
-}
-.social a ion-icon{
-    padding: 5px;
-    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
     transition: 0.4s ease-in-out;
     border-radius: 100%;
-    border: 1px solid;
+    border: 1px solid #FFF;
+    margin-left: 10px;
 }
 
 .social a:hover{
     color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
 }
